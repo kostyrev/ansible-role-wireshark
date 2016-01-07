@@ -1,0 +1,8 @@
+---
+# tasks file for wireshark
+
+- name: "install wireshark-gnome package"
+  yum: name=wireshark-gnome state=present
+
+- name: add current user to wireshark group
+  user: append=yes groups=wireshark name={{ wireshark_user }}

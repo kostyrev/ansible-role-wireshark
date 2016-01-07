@@ -1,0 +1,16 @@
+---
+galaxy_info:
+  author: Aleksandr Kostyrev
+  description: Installs wireshark
+  license: BSD
+  min_ansible_version: 1.9
+
+  platforms:
+  - name: Fedora
+    versions:
+    - 21
+  
+  categories:
+  - system
+
+dependencies: []

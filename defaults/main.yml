@@ -1,0 +1,3 @@
+---
+# defaults file for wireshark
+wireshark_user: "{{ lookup('env','USER') }}"
